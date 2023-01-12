@@ -37,6 +37,16 @@ class InfoPage extends StatelessWidget {
               const SizedBox(height: 20),
               RichText(
                 text: TextSpan(
+                  text: '5° Grupo ',
+                  style: textStyle,
+                  children: [
+                    TextSpan(text: 'A', style: remarquedText),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 20),
+              RichText(
+                text: TextSpan(
                   text: 'Tiempo tardado en realizar la practica: ',
                   style: textStyle,
                   children: [
@@ -44,7 +54,6 @@ class InfoPage extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 20),
             ],
           ),
         ),
